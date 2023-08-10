@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Search</title>
+  <style>
+    .anahat {
+      max-width: 1140px;
+      margin: 40px auto;
+    }
+
+    .find {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .wordsHeading {
+      font-size: 16px;
+      min-width: 200px;
+      width: 20%;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .space {
+      display: flex;
+      align-items: center;
+      min-width: 200px;
+      width: 50%;
+    }
+
+    .space input {
+      flex: 1;
+      border-radius: 1px;
+      border: 1px solid #d9d9d9;
+      font-size: 13px;
+      height: 25px;
+      padding: 1px 8px;
+    }
+
+    .details {
+      width: 30%;
+      min-width: 150px;
+      color: #555;
+      font-size: 11px;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="anahat">
+    <div class="find">
+      <div class="wordsHeading">Find pages with...</div>
+      <div class="space"></div>
+      <div class="detailsHeading">To do this in the search box.</div>
+    </div>
+    <div class="find">
+      <div class="words">all these words:</div>
+      <div class="space">
+        <input type="text">
+      </div>
+      <div class="details">Type the important words: <span>rat terrier</span></div>
+    </div>
+    <div class="find">
+      <div class="words">this exact word or phrase:</div>
+      <div class="space">
+        <input type="text">
+      </div>
+      <div class="details">Put exact words in quotes <span>rat terrier</span></div>
+    </div>
+    <div class="find">
+      <div class="words">any of these words:</div>
+      <div class="space">
+        <input type="text">
+      </div>
+      <div class="details">Type OR between all the words you want: <span>miniature OR standard</span></div>
+    </div>
+    <div class="find">
+      <div class="words">none of words:</div>
+      <div class="space">
+        <input type="text">
+      </div>
+      <div class="details">Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></div>
+    </div>
+  </div>
+</body>
+</html>

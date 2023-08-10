@@ -1,0 +1,273 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.topRightContainer {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.topRight {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    outline-offset: 2px;
+    margin-right: 20px;
+}
+
+.topRight:hover {
+    text-decoration: underline;
+    }
+
+.centeredContent {
+    text-align: center;
+}
+
+#png {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 222px;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+@media (max-width: 768px) {
+    #png {
+        max-width: none;
+    }
+}
+
+#search {
+    background: #fff;
+    border: #fff;
+    padding: 12px;
+    width: 584px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.one {
+    border-radius: 2px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    line-height: 35px;    
+    margin: 20px 6px;
+    padding: 0 16px;
+    font-size: 14px;
+}
+
+.one:hover{
+    box-shadow: 0 0 1px #3c4043;
+}
+
+.one:focus{
+    border-color: rgb(0, 110, 255);
+}
+
+.two {
+    border-radius: 2px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    line-height: 35px; 
+    margin: 20px 6px;
+    padding: 0 16px;   
+    font-size: 14px;
+}
+
+.two:hover{
+    box-shadow: 0 0 1px #3c4043; 
+}
+
+.two:focus{
+    border-color: rgb(0, 110, 255);
+}
+
+
+.searchContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #ffffff; /* Arama çubuğunun arka plan rengini istediğiniz gibi ayarlayabilirsiniz */
+    border: 1px solid #dfe1e5; /* Arama çubuğunun kenarlık rengini istediğiniz gibi ayarlayabilirsiniz */
+    border-radius: 24px; /* Arama çubuğunun köşelerini istediğiniz gibi ayarlayabilirsiniz */
+    padding: 10px; /* Arama çubuğu içindeki boşluğu istediğiniz gibi ayarlayabilirsiniz */
+    width: 577px;
+    margin: 0 auto;
+    box-shadow: none;
+    margin-top: 25px;
+    overflow: hidden;
+    padding: 3px;
+  }
+
+  .searchContainer input {
+    border: none;
+    width: 100%; /* Arama çubuğunu genişliğiyle orantılı hale getirmek için */
+}
+
+  .searchContainer:hover {
+    box-shadow: 0 0 12px rgba(33,33,33,.2); 
+
+  }
+
+.iconContainer {
+    margin-left: 5px; /* İstediğiniz boşluk miktarına göre ayarlayabilirsiniz */
+  }
+  
+  .leftSpan {
+    height: 22px;
+    width: 22.5px;
+    margin-top: 3px;
+    margin-left: 11px;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+  
+
+
+#advpng{
+    height: 24px;
+    width: 74px;
+    margin-left: 12px;
+    margin-top: -10px;
+}
+
+.g1 {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 36px;
+    margin-left: 37px;
+    margin-bottom: 25px;
+}
+
+.line{
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}
+
+.linetwo{
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}
+
+
+.anahat{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+
+.wordsHeading{
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+}
+
+.detailsHeading{
+    padding-left: 20px;
+}
+
+.find{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.words{
+    width: 200px;
+    font-size: 13px;
+}
+
+.space{
+    min-width: 167px;
+    width: 50%;
+}
+
+
+.space input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.space input:focus{
+    border-color: rgb(35, 150, 245);
+    outline: none; /* İsteğe bağlı: Odaklandığında varsayılan vurgu rengini kaldırır */
+    box-shadow: 0 0 0 0.1px rgb(35, 150, 245); /* İsteğe bağlı: Çevre etrafında bir gölge oluşturur */
+}
+
+.details{
+    width: 32%;
+    min-width: 16px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 40px;
+}
+
+
+span{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    border-radius: 1px;
+
+}
+
+.buttonSearch{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    margin: 30px ;
+    padding: 10px;
+    margin-left: 648px;
+    border-radius: 3px;
+}
+
+.buttonSearch:hover{
+    background-color: #518ae5; 
+    border: 1px solid #0d48a6;
+
+}
+
+.buttonSearch:active{
+    background-color: #518ae5; 
+    border: 1px solid #073887;
+    border-color: #073887;
+    box-shadow: inset 0.1px 0.1px 2px #2209e1;
+}
+
+.one:focus{
+    border-color: rgb(0, 110, 255);
+}
